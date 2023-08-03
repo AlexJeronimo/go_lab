@@ -18,8 +18,13 @@ func main() {
 		primes := [5]int{2, 3, 5, 7, 11}
 		fmt.Println(len(primes))
 	*/
+	/*
+		for i := 0; i < len(notes); i++ {
+			fmt.Println(i, notes[i])
+		}
+	*/
 
-	for i := 0; i < len(notes); i++ {
-		fmt.Println(i, notes[i])
+	for index, note := range notes {
+		fmt.Println(index, note)
 	}
 }
