@@ -1,3 +1,6 @@
 first signature
 second signature
 third signature
+<script>alert("hi")</script>
+One new line
+It works!
